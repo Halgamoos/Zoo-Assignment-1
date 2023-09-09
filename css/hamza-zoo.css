@@ -46,10 +46,11 @@ a {
 
 .animal-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-gap: 20px; 
+  grid-template-columns: repeat(2, 1fr); /* Two columns each taking 1/2 of the width */
+  grid-gap: 20px; /* Gap between columns */
 }
 
+/* Styled button for the "Back to Home Page" link */
 .back-button {
   display: inline-block;
   background-color: #0078d4;
@@ -60,9 +61,16 @@ a {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .back-button:hover {
   background-color: #0056a7;
+}
+
+/* Hover effect for animal cards */
+.animal-link:hover .animal {
+  background-color: #e0f2f7; /* Subtle blueish background color on hover */
+  transform: scale(1.05); /* Increase size on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
 }
