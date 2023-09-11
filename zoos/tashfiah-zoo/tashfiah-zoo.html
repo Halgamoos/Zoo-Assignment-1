@@ -1,80 +1,61 @@
 <!DOCTYPE html>
 <html>
-<title>Tashfiah's Zoo</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+    <title>Tashfiah's Zoo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        /* Style for the buttons */
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 100px 100px; /* Keep the padding as specified */
+            font-size: 30px;
+            background-color: orange;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #2980b9;
+            border-radius: 5px;
+            margin: 20px; /* Adjust margin for spacing */
+        }
+
+        /* Hover effect */
+        .button:hover {
+            background-color: lightsalmon;
+        }
+
+        /* Center the content vertically and horizontally */
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
 <body>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<div class="w3-container w3-teal">
-<h1>Tashfiah's Zoo</h1>
-<a href="../../index.html">
-<i class="glyphicon glyphicon-home" style="font-size:30px; float: right; margin-top: -50px; cursor: pointer;"></i>
-</a>
-</div>
-
-<div class="w3-content">
-
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="peacock.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Peacock</h2>
-  <p>
-    Fun fact these eye catching birds are all males. They use their feathers to attact female mates. Their life span 
-    ranges from 10 to 25 years if out in the ild and up to half a century if held captive. Further, they are the national
-    animal of India.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="penguin.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Penguin</h2>
-  <p>
-    Penguins are categorized as birds with special aquatic abilities and unable to fly like many other bird counterparts.
-    They spend up to 75 percent of their life in the water. There are around 17 to 19 species of penguins and majority
-    live in the Southern hemisphere!
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="tiger.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Bengal Tiger</h2>
-  <p>
-    The Bengal Tiger native to the South Asian region are fierce and quite solitary creatures. Notable for their stripes they
-    are unfortunatley only 2,500 left in the wild. They are also known to be highly accurate in killing their prey.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="giraffe.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Giraffe</h2>
-  <p>
-  Typically native to the region of Africa, Giraffe's are the tallest mammals in the world with a herbivore diet. Fun fact
-  they are able to stand within 30 minutes of birth and stand for majority of their days when awake as well as when they are asleep!
-  They can live up to 25 years and extremely friendly creatures.
-  </p>
-</div>
-
-
-</div>
-</div>
+    <div class="w3-container w3-teal">
+        <h1>Tashfiah's Zoo</h1>
+        <a href="../../index.html">
+            <i class="glyphicon glyphicon-home" style="font-size:30px; float: right; margin-top: -50px; cursor: pointer;"></i>
+        </a>
+    </div>
+    
+    <!-- Buttons in the white part of the page -->
+    <div class="center-content">
+        <div class="button-container">
+            <a href="peacock.html" class="button">Peacock</a>
+            <a href="penguin.html" class="button">Penguin</a>
+            <a href="tiger.html" class="button">Tiger</a>
+            <a href="giraffe.html" class="button">Giraffe</a>
+        </div>
+    </div>
 </body>
 </html>
